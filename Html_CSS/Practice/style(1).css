@@ -1,0 +1,26 @@
+div[id="myid"] p {
+    color: rgb(5, 111, 5);   
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+p+h3:nth-of-type(2n+1) {
+    background-color: aqua;   
+}
+
+h1::first-letter{
+    font-family: sans-serif;
+    color: rgb(44, 238, 57);
+}
+
+p::selection {
+    color: antiquewhite;
+    background-color: rgb(21, 21, 245);
+}

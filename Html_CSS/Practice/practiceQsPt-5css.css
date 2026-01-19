@@ -1,0 +1,42 @@
+/* #Parent {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    font-size: 50px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: space-evenly;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+ } */
+
+#navbar {
+    height: 50px;
+    width: 900px;
+    font-size: 24px;
+    border: 2px solid lightblue;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+} 
+
+div {
+    height: inherit;
+    width: 80px;
+    margin-left: 5px;
+    line-height: 50px;
+}

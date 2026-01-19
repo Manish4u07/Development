@@ -1,0 +1,38 @@
+#maintopic{
+    color: #00f;
+}
+
+*{
+    text-align: center;
+}
+
+h1 ,h2,h3{
+    font-family: georgia;
+}
+
+.paragraph{
+    color: #fff;
+    background-color: cornflowerblue;
+}
+
+div button{
+    color: azure;
+    background-color: purple;
+}
+
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+p:nth-of-type(odd){
+    background-color: yellow;
+}
+
+h1::first-letter{
+    color: #f00;
+}
+
+#yes:checked+label{
+    color: darkgreen;
+}

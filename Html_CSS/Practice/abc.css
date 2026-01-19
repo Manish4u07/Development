@@ -1,0 +1,33 @@
+p {
+    color: #a52a2a;
+    text-align: center;
+    line-height: 30px;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+h3 {
+    text-align: center;
+    color: black;
+}
+h4 {
+    text-align: center;
+}
+a {
+    text-decoration: dashed;
+    color: rgb(0,128,0);
+}
+* {
+    font-family: georgia;
+}
+button {
+    background-color: #ffffff;
+    color: blueviolet;
+}
+textarea {
+    color: #000;
+}
+span {
+    text-decoration: underline;
+}

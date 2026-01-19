@@ -1,0 +1,85 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# =========================
+# Build Output (React / Frontend)
+# =========================
+build/
+dist/
+out/
+
+# =========================
+# React / Vite / Next.js
+# =========================
+.next/
+.cache/
+.vite/
+.eslintcache
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Database
+# =========================
+*.sqlite
+*.db
+*.sql
+*.dump
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Coverage Reports
+# =========================
+coverage/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+*.swp
+
+# =========================
+# Optional: Ignore EJS cache
+# =========================
+.ejs-cache/
+
+# =========================
+# Optional: Ignore uploads folder
+# =========================
+uploads/

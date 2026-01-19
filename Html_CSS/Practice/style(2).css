@@ -1,0 +1,63 @@
+/* #light {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.box {
+    height: 50px;
+    width: 50px;
+    border: #000 solid 2px;
+    margin: 10px;
+    border-radius: 50px;
+} */
+
+/* div{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: dotted black 5px;
+    margin-left: 20px 1em 40px 2em;
+    padding: 1em;
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50em;
+    display: inline-block;
+} */
+
+/* li{
+    display: inline-block;  
+} */
+
+#face{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#mouth{
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+#lefteye ,#righteye{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#righteye{
+    left: 250px;
+}
