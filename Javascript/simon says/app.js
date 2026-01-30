@@ -51,7 +51,6 @@ document.addEventListener("keydown", function () {
     if (started == false) {
         console.log("Game is started");
         started = true;
-
         levelup();
     }
 })
