@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Sviet college</title>
+</head>
+
+<body>
+    <h3>Student details</h3>
+    <% for(Student of Student) { %>
+        <div class="student">
+            <h4>Id:<%=Student.id%>
+            </h4>
+            <p>Name:<%=Student.name%>
+            </p>
+            <p>age:<%=Student.age%>
+            </p>
+            <p>course:<%=Student.course%>
+            </p>
+            <a href="http://localhost:1000/student/<%=Student.id%>">See data</a>
+            <a href="http://localhost:1000/student/<%=Student.id%>/edit">Edit data</a>
+            <br>
+            <form action="/student/<%=Student.id%>?_method=DELETE" method="post">
+                <button type="submit">Delete this student data</button>
+            </form>
+        </div>
+        <% } %>
+            <br>
+            <br>
+            <a href="http://localhost:1000/student/new">ADD new Student</a>
+</body>
+
+</html>
